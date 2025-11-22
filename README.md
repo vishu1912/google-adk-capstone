@@ -214,7 +214,7 @@ cd google-adk-capstone
 
 2. **Create virtual environment**
 ```bash
-python -m venv venv
+python -m venv venv #or python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
