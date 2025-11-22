@@ -209,7 +209,7 @@ This project showcases mastery of Google ADK through:
 1. **Clone the repository**
 ```bash
 git clone https://github.com/vishal1912/google-adk-capstone.git
-cd health-journal-agent
+cd google-adk-capstone
 ```
 
 2. **Create virtual environment**
