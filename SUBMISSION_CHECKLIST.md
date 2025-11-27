@@ -6,7 +6,7 @@ Use this checklist to ensure your submission is complete and competitive.
 
 ### Code & Documentation
 
-- [V] **agent.py** - Enhanced with logging, comments, and session management
+- [ ] **agent.py** - Enhanced with logging, comments, and session management
 - [ ] **evaluation.py** - Complete evaluation framework
 - [ ] **requirements.txt** - All dependencies listed
 - [ ] **README.md** - Comprehensive documentation (architecture, setup, usage)
