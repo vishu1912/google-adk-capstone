@@ -113,7 +113,7 @@ graph TD
 
 #### **Root Agent: Health Coordinator**
 - **Role:** Routes user requests to specialist agents
-- **Model:** Gemini 2.0 Flash Exp
+- **Model:** Gemini 2.5 Flash
 - **Responsibilities:**
   - Analyze user intent
   - Select appropriate specialist
@@ -210,33 +210,38 @@ This project showcases mastery of Google ADK through:
 ```bash
 git clone https://github.com/vishal1912/google-adk-capstone.git
 cd google-adk-capstone
+cd health_journal_agent
 ```
 
-2. **Create virtual environment**
+2.**Set up authentication**
+
+Get your Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey).
+
+create a `.env` file inside health_journal_agent:
+```
+GOOGLE_API_KEY=your-api-key-here
+```
+
+3.**go to main directory**
+
+go to main git folder:
+```
+cd .. # cd to google_adk_capstone
+```
+
+4.**Create virtual environment**
 ```bash
 python -m venv venv #or python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. **Install dependencies**
+5. **Install dependencies**
 ```bash
+pip install google adk
 pip install -r requirements.txt
 ```
 
-4. **Set up authentication**
-
-Get your Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey).
-
-```bash
-export GOOGLE_API_KEY="your-api-key-here"
-```
-
-Or create a `.env` file:
-```
-GOOGLE_API_KEY=your-api-key-here
-```
-
-5. **Verify installation**
+6. **Verify installation**
 ```bash
 python evaluation.py
 ```
@@ -249,10 +254,10 @@ You should see test results showing agent functionality.
 
 ### Running the Agent
 
-#### Option 1: Command Line (Interactive)
+#### Option 1: Command Line in venv (Interactive)
 
 ```bash
-python -m google.adk.cli run agent:root_agent
+python -m google.adk.cli run health_journal_agent
 ```
 
 Then interact via CLI:
@@ -263,14 +268,11 @@ Agent: I'm sorry to hear that. On a scale of 1-10, how severe is your headache?
 Agent: ✅ Logged headache (severity 7)
 ```
 
-#### Option 2: Programmatic Use
+#### Option 2: use within adk GUI
 
-```python
-from agent import health_coordinator
-
-# Create a session
-response = health_coordinator.run("I have a headache with severity 8")
-print(response)
+```bash
+cd .. # or where the main googl_adk_capstone folder exists, in Desktop, or Documents, or other Folders
+adk web google_adk_capstone
 ```
 
 ### Sample Interactions
