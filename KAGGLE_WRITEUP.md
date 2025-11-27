@@ -2,9 +2,7 @@
 ## AI-Powered Personal Health Tracking for Better Doctor Visits
 
 **Track:** Agents for Good  
-**Author:** [Your Name]  
-**GitHub:** [Repository Link]  
-**Video:** [YouTube Link]
+**Author:** Vishal Sharma 
 
 ---
 
