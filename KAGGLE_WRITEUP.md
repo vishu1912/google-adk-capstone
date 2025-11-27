@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-The Smart Health Journal Agent is a multi-agent AI system that helps patients accurately track symptoms, medications, and health patterns through natural conversation, resulting in better-prepared doctor visits and improved healthcare outcomes. Built using Google's Agent Development Kit and powered by Gemini 2.0 Flash, this system demonstrates sophisticated agent orchestration, custom tool development, and production-ready software engineering practices.
+The Smart Health Journal Agent is a multi-agent AI system that helps patients accurately track symptoms, medications, and health patterns through natural conversation, resulting in better-prepared doctor visits and improved healthcare outcomes. Built using Google's Agent Development Kit and powered by Gemini 2.5 Flash, this system demonstrates sophisticated agent orchestration, custom tool development, and production-ready software engineering practices.
 
 **Key Impact:** Transforms fragmented health tracking from manual journal entries or forgotten details into organized, doctor-ready reports through empathetic AI conversation.
 
