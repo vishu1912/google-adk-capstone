@@ -278,10 +278,13 @@ adk web google_adk_capstone
 Then interact via adk GUI:
 Choose the health_journal_agent from list of agents:
 
-Ask your questions:  
+Ask your questions (Example): 
 > I have a headache
+
 Agent: I'm sorry to hear that. On a scale of 1-10, how severe is your headache?
+
 > 7
+> 
 Agent: ✅ Logged headache (severity 7)
 
 ### Sample Interactions
