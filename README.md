@@ -386,7 +386,7 @@ Status: ✅ EXCELLENT - Agent is production-ready
 
 ### Core Framework
 - **Google ADK** - Agent development and orchestration
-- **Gemini 2.0 Flash Exp** - LLM powering all agents
+- **Gemini 2.5 Flash** - LLM powering all agents
 
 ### Python Packages
 - `google-genai` - Gemini API client
@@ -404,16 +404,18 @@ Status: ✅ EXCELLENT - Agent is production-ready
 ## 📁 Project Structure
 
 ```
-health-journal-agent/
-├── agent.py                 # Main agent implementation
-├── evaluation.py           # Evaluation framework
-├── requirements.txt        # Python dependencies
-├── README.md              # This file
-├── .env.example           # Environment template
-├── .gitignore            # Git exclusions
-└── tests/                # Additional test files
-    ├── test_tools.py     # Tool unit tests
-    └── test_agents.py    # Agent integration tests
+google_adk_capstone/
+├── health_journal_agent/
+│   ├── __init__.py
+│   ├── agent.py          # main ADK agent entrypoint (defines root agent)
+│   ├── storage.py        # persistent memory / state management
+│   └── tools.py          # helper functions / external integrations
+├── evaluation.py          # offline model evaluation / metrics
+├── requirements.txt       # project dependencies
+├── README.md              # project overview + setup instructions
+├── DEPLOYMENT.md          # deployment instructions
+├── SUBMISSION_CHECKLIST.md
+└── KAGGLE_WRITEUP.md      # project write-up/report
 ```
 
 ---
