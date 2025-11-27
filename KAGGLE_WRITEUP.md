@@ -128,7 +128,7 @@ User → Coordinator Agent → Specialist Agents → Custom Tools → Data Store
 
 #### 1. Root Agent: Health Coordinator
 ```python
-- Model: Gemini 2.0 Flash Exp
+- Model: Gemini 2.5 Flash
 - Role: Intent recognition and routing
 - Tools: 4 specialist agents
 - Logic: Analyzes user input → selects specialist → returns response
@@ -240,7 +240,7 @@ This project showcases mastery of Google ADK by implementing:
 - Pass/fail metrics with scoring
 
 ### ✅ 6. Gemini Integration
-- **Gemini 2.0 Flash Exp** across all agents
+- **Gemini 2.5 Flash** across all agents
 - Retry configuration for robustness
 - Optimized for fast responses
 
@@ -639,7 +639,7 @@ health-journal-agent/
 ### Technologies Used
 
 - **ADK:** google-adk 0.1.0+
-- **LLM:** Gemini 2.0 Flash Exp
+- **LLM:** Gemini 2.5 Flash
 - **Language:** Python 3.9+
 - **Deployment:** Google Cloud Run
 - **Testing:** pytest, custom evaluation framework
