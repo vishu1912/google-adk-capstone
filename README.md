@@ -217,9 +217,11 @@ cd health_journal_agent
 
 Get your Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey).
 
-create a `.env` file inside health_journal_agent:
+go to empty `.env` file inside health_journal_agent:
 ```
-GOOGLE_API_KEY=your-api-key-here
+nano .env
+
+#Then enter your GOOGLE_API_KEY="your_api_key"
 ```
 
 3.**go to main directory**
